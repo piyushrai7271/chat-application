@@ -37,3 +37,12 @@ A full-stack real-time chat application built using **React** for the frontend a
 
 ## 📁 Folder Structure
 
+<pre> ``` CHAT-SYSTEM/ │ ├── backend/ │ ├── src/ │ │ ├── config/ # MongoDB config & env settings │ │ ├── controllers/ # Request handlers │ │ ├── middleware/ # Auth/error handlers │ │ ├── models/ # Mongoose schemas │ │ ├── routes/ # API routes │ │ ├── utils/ # Helper functions │ │ └── index.js # Entry point │ ├── .env │ ├── package.json │ ├── package-lock.json │ └── ... │ ├── front-end/ │ ├── public/ │ ├── src/ │ ├── index.html │ ├── vite.config.js │ ├── package.json │ └── ... │ └── README.md ``` </pre>
+
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/chat-system.git
+cd chat-system
