@@ -1,4 +1,4 @@
-import { TryCatch } from "../middlewares/error.js";
+import { TryCatch } from "../middleware/error.js";
 import { ErrorHandler } from "../utils/utility.js";
 import { Chat } from "../models/chat.js";
 import {
